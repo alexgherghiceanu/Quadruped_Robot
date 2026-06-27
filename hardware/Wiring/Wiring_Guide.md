@@ -2,7 +2,7 @@
  
 #### Power
  
-The LiPo battery connects through the KCD-1 on/off switch to the XL4015 buck converter `IN+` / `IN-`. Set the converter output to **5V** before connecting anything downstream. From the converter `OUT+` / `OUT-`, run power to two destinations: the **PCA9685** `V+` and `GND` rails (servo power), and the **STM32 Nucleo** `+5V` and `GND` pins. The 1000 uF capacitor goes across the PCA9685 power input to smooth voltage spikes when servos move.
+The LiPo battery connects through the  on/off switch to the XL4015 buck converter `IN+` / `IN-`. Set the converter output to **5V** before connecting anything downstream. From the converter `OUT+` / `OUT-`, run power to two destinations: the **PCA9685** `V+` and `GND` rails (servo power), and the **STM32 Nucleo** `+5V` and `GND` pins. The 1000 uF capacitor goes across the PCA9685 power input to smooth voltage spikes when servos move.
  
 #### HM-10 Bluetooth Module (J3) — UART
  
@@ -30,7 +30,7 @@ VCC powers the PCA9685 logic. V+ powers the servo rail. Both run at 5V here but 
  
 #### Servomotors — PCA9685 outputs (J4)
  
-The 8 servos connect to the PCA9685 via the J4 port header. Each servo's signal wire maps to a PWM channel net:
+The 8 servos connect to the PCA9685. Each servo's signal wire maps to a PWM channel net:
  
 | J4 pin | Net | Servo |
 |---|---|---|
