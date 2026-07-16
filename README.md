@@ -64,10 +64,10 @@ A look at the robot from early assembly to a working walking gait.
 
 | | |
 |---|---|
-| ![Parts before assembly](media/parts_disassembled.jpg) | ![PCB and wiring](media/pcb_wiring.jpg) |
+| ![Parts before assembly](media/parts_disassembled.jpeg) | ![PCB and wiring](media/pcb_wiring.jpeg) |
 | Servos and parts before assembly | PCA9685 driver + power wiring |
 
-![Assembled robot](media/robot_assembled.jpg)
+![Assembled robot](media/robot_assembled.jpeg)
 
 *The robot fully assembled, with the STM32 board mounted on top.*
 
