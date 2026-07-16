@@ -61,10 +61,11 @@ The brain of the robot is the **STM32 Nucleo-U545RE-Q** microcontroller. It rece
 A look at the robot from early assembly to a working walking gait.
 
 ### Photos
+![CAD model of the chassis](media/chassis_cad_model.jpeg)
 
 | | |
 |---|---|
-| ![Parts before assembly](media/parts_disassembled.jpeg) | ![PCB and wiring](media/pcb_wiring.jpeg) |
+| ![Parts before assembly](media/parts_dissasembled.jpeg) | ![PCB and wiring](media/pcb_wiring.jpeg) |
 | Servos and parts before assembly | PCA9685 driver + power wiring |
 
 ![Assembled robot](media/robot_assembled.jpeg)
