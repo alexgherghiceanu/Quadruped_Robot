@@ -55,6 +55,25 @@ Android/iOS Device
 ## Hardware
  
 The brain of the robot is the **STM32 Nucleo-U545RE-Q** microcontroller. It receives Bluetooth commands via the HM-10 module (UART), computes the required servo positions, and sends them to a **PCA9685** 16-channel PWM driver over I2C. The driver then actuates the 8 **MG90S** servomotors (2 per leg). Power comes from a **7.4V 1000mAh 2S LiPo** battery, stepped down to the appropriate voltage for the logic and servos via an **XL4015** buck converter.
+
+## Build Progress & Media
+
+A look at the robot from early assembly to a working walking gait.
+
+### Photos
+
+| | |
+|---|---|
+| ![Parts before assembly](media/parts_disassembled.jpg) | ![PCB and wiring](media/pcb_wiring.jpg) |
+| Servos and parts before assembly | PCA9685 driver + power wiring |
+
+![Assembled robot](media/robot_assembled.jpg)
+
+*The robot fully assembled, with the STM32 board mounted on top.*
+
+### Demo
+
+![Walking demo](media/walking_demo.gif)
  
 ### Bill of Materials
  
