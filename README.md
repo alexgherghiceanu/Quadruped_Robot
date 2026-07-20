@@ -13,7 +13,7 @@ A Bluetooth-controlled spider robot powered by an STM32 microcontroller and writ
  
 ## Description
  
-This project is a Bluetooth-controlled quadruped (spider) robot that pairs with your phone or tablet over BLE. Once connected, you can control its speed and direction of travel, and issue special commands such as making it wave. The robot uses 8 servomotors — 2 per leg — and an inverse kinematics engine to produce smooth, natural movement.
+This project is a Bluetooth-controlled quadruped (spider) robot that pairs with your phone or tablet over BLE. Once connected, you can control its speed and direction of travel, and issue special commands such as making it wave. The robot uses 8 servomotors to produce smooth, natural movement.
  
 ## Motivation
  
